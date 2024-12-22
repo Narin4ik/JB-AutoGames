@@ -5,7 +5,7 @@ import tkinter as tk
 from tkinter import ttk
 
 def get_window_list():
-    return [title.strip() for title in gw.getAllTitles() if title and title.strip()]  # Только окна с ненулевым заголовком
+    return [title.strip() for title in gw.getAllTitles() if title and title.strip()]
 
 def get_window_coordinates(window_title):
     try:
