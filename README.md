@@ -1,1 +1,1 @@
-# JB-AutoGames
+# JB AutoGames
